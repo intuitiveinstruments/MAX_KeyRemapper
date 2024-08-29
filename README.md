@@ -1,4 +1,4 @@
-```markdown
+
 # Max KeyRemapper patch for Intuitive Instruments Exquis MPE Controller
 
 This MAX patch allow to remap MIDI notes of Exquis' keys and set the LEDs under the keys. It controls the Exquis using MIDI SysEx messages. The Exquis controller offers a "slave mode" that allows you to send and receive specific SysEx messages for controlling its keys, buttons, and encoders.
@@ -127,6 +127,3 @@ F0 00 21 7E 08 buttonId buttonState F7
 240 0 33 126 8 6 1 247
 ```
 This indicates that the "octave -" button (ID 6) is pressed.
-
-Happy patching!
-```
